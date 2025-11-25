@@ -7,7 +7,7 @@ import ProductCardOne from '@/components/sections/product/ProductCardOne';
 import PricingCardOne from '@/components/sections/pricing/PricingCardOne';
 import FaqDouble from '@/components/sections/faq/FaqDouble';
 import FooterSocial from '@/components/sections/footer/FooterSocial';
-import { Basketball, DollarSign, HelpCircle, Instagram, Facebook, Twitter, Youtube, Sparkles, Award, Crown } from "lucide-react";
+import { Circle, DollarSign, HelpCircle, Instagram, Facebook, Twitter, Youtube, Sparkles, Award, Crown } from "lucide-react";
 
 export default function ProgramsPage() {
   return (
@@ -42,7 +42,7 @@ export default function ProgramsPage() {
           title="Training Programs"
           description="Choose the perfect program for your basketball journey"
           tag="Programs"
-          tagIcon={Basketball}
+          tagIcon={Circle}
           textboxLayout="default"
           animationType="slide-up"
           gridVariant="three-columns-all-equal-width"
